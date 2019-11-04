@@ -10,6 +10,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<p>hi</p>
 				<button onClick={this.handleOnClick}>Click</button>
 				<p>{this.props.items.length}</p>
 			</div>
